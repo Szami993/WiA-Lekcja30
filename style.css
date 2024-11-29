@@ -2,7 +2,7 @@ body {
   display: grid;
   grid-template-columns: 30% 70%;
   column-gap: 0px;
-  cursor:crosshair;
+  cursor: url('cursor.png'), auto;
   grid-template-areas:
     'header header'
     'menu article'
